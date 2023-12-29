@@ -1,0 +1,21 @@
+{
+  "name": "Isaac Douglas",
+  "email": "azeez-treinamento@azeez.com",
+  "title": "Mr",
+  "pass": "senhamuitoforte",
+  "birthday": {
+      "day": "26",
+      "month": "12",
+      "year": "2000"
+  },
+  "newsletter": "yes",
+  "optin": "no",
+  "company": "Azeez Code",
+  "address1": "Hogwarts",
+  "address2": "Marte",
+  "state": "Chines",
+  "country": "Singapore",
+  "city": "Singapore City",
+  "zipcode": "12345678",
+  "number": "987654321"
+}

@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('apiDelete', (user) => {
+
+    cy.api({
+        url: 'https://automationexercise.com/api/deleteAccount',
+        method: 'DELETE',
+        form: true,
+        body: {
+            email: user.email,
+            password: user.pass
+        }
+    }).then(response => {
+        expect(response.status).to.eql(200)
+    })
+
+})

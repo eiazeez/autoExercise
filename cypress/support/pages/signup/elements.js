@@ -22,6 +22,10 @@ exports.el = {
     zipCode: '#zipcode',
     number: '#mobile_number',
     submitButton: 'button[data-qa="create-account"]',
-    sucessfuMessage: 'h2[data-qa="account-created"]'
+    sucessfuMessage: 'h2[data-qa="account-created"]',
+    errorMessage: 'form[action="/signup"] p',
+    loginEmail: 'input[data-qa="login-email"]',
+    loginPass: 'input[data-qa="login-password"]',
+    submitLogin: 'button[data-qa="login-button"]'
 
 }

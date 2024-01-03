@@ -1,21 +1,65 @@
 {
-  "name": "Isaac Douglas",
-  "email": "azeez-treinamento@azeez.com",
-  "title": "Mr",
-  "pass": "senhamuitoforte",
-  "birthday": {
-      "day": "26",
-      "month": "12",
-      "year": "2000"
+  "registerUser": {
+    "name": "Isaac Douglas",
+    "email": "azeez-treinamento@azeez.com",
+    "title": "Mr",
+    "pass": "senhamuitoforte",
+    "birthday": {
+        "day": "26",
+        "month": "12",
+        "year": "2000"
+    },
+    "newsletter": "yes",
+    "optin": "no",
+    "company": "Azeez Code",
+    "address1": "Hogwarts",
+    "address2": "Marte",
+    "state": "Chines",
+    "country": "Singapore",
+    "city": "Singapore City",
+    "zipcode": "12345678",
+    "number": "987654321"
   },
-  "newsletter": "yes",
-  "optin": "no",
-  "company": "Azeez Code",
-  "address1": "Hogwarts",
-  "address2": "Marte",
-  "state": "Chines",
-  "country": "Singapore",
-  "city": "Singapore City",
-  "zipcode": "12345678",
-  "number": "987654321"
+  "duplicatedUser": {
+    "name": "Cristiano Ronaldo",
+    "email": "cr7-azeez@mail.com",
+    "pass": "senhamuitoforte",
+    "title": "Mr",
+    "birthday": {
+        "day": "01",
+        "month": "01",
+        "year": "2000"
+    },
+    "firstname": "Cristiano",
+    "lastname": "Ronaldo",
+    "company": "Real Madrid",
+    "address1": "Espanha",
+    "address2": "Madrid",
+    "country": "Canada",
+    "zipcode": "12345678",
+    "state": "Cana",
+    "city": "Montreal",
+    "number": "987654321"
+  },
+  "loginUser": {
+    "name": "Lionel Messi",
+    "email": "messi-azeez@mail.com",
+    "pass": "senhamuitoforte",
+    "title": "Mr",
+    "birthday": {
+        "day": "01",
+        "month": "01",
+        "year": "2000"
+    },
+    "firstname": "Lionel",
+    "lastname": "Messi",
+    "company": "FC Barcelona",
+    "address1": "Espanha",
+    "address2": "Barcelona",
+    "country": "Canada",
+    "zipcode": "12345678",
+    "state": "Cana",
+    "city": "Montreal",
+    "number": "987654321"
+  }
 }

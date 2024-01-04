@@ -18,8 +18,7 @@ describe('Dado que estou na página de cadastro', function(){
 
             cy.apiDelete(data)
 
-            HomePage.go()
-            Header.goToSignup()
+            cy.visit('/login')
 
             SignupPage.fillSignupForm(data)
             SignupPage.submitSignupForm()
@@ -42,8 +41,7 @@ describe('Dado que estou na página de cadastro', function(){
             cy.apiDelete(data)
             cy.apiSignup(data)
 
-            HomePage.go()
-            Header.goToSignup()
+            cy.visit('/login')
 
             SignupPage.fillSignupForm(data)
             SignupPage.submitSignupForm()

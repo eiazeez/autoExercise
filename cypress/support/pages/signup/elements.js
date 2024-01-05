@@ -26,6 +26,7 @@ exports.el = {
     errorMessage: '#form form[method="POST"] p',
     loginEmail: 'input[data-qa="login-email"]',
     loginPass: 'input[data-qa="login-password"]',
-    submitLogin: 'button[data-qa="login-button"]'
+    submitLogin: 'button[data-qa="login-button"]',
+    loginForm: '#form'
 
 }

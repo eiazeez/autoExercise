@@ -8,10 +8,14 @@ const Header = {
    },
 
    loggedUserShouldHave: function(txt) {
-      cy.get(el.loggedUseIcon)
+      cy.get(el.loggedUserIcon)
         .parent()
         .should('have.text', txt)
-   }
+   },
+
+   logout: function() {
+      cy.get(el.logout).click()
+   },
 
 }
 

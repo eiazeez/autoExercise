@@ -1,4 +1,3 @@
-import HomePage from "../support/pages/home"
 import Header from "../support/components/header"
 import SignupPage from "../support/pages/signup"
 
@@ -26,6 +25,29 @@ describe('Dado que estou na página de login', function() {
 
             const txt = ' Logged in as '+ data.name
             Header.loggedUserShouldHave(txt)
+
+        })
+    })
+
+    context('Quando logo com um user válido', function() {
+
+        it('Então deve ser possível deslogar com sucesso', function() {
+
+            const data = this.data.loginUser
+
+            cy.apiDelete(data)
+            cy.apiSignup(data)
+
+            cy.visit('/login')
+        
+            SignupPage.fillFormLogin(data)
+            SignupPage.submitLoginForm()
+
+            const txt = ' Logged in as '+ data.name
+            Header.loggedUserShouldHave(txt)
+
+            Header.logout()
+            SignupPage.shouldBeVisible()
 
         })
     })

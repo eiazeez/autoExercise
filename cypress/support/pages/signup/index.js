@@ -63,7 +63,10 @@ const SignupPage = {
         cy.get(el.loginEmail)
           .invoke('prop', 'validationMessage')
           .should('to.contains', msg.output)
+    },
 
+    shouldBeVisible: function(){
+        cy.get(el.loginForm).should('be.visible')
     }
 
 

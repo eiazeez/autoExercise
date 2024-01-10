@@ -67,5 +67,23 @@
     "email": "meuemail@mail.com",
     "subject": "Meu Assunto",
     "message": "Minha mensagem"
+  },
+  "products": {
+    "men_tshirt": {
+      "name": "Men Tshirt",
+      "category": "Men > Tshirts",
+      "price": 400,
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "H&M"
+    },
+    "sleeveless_dress": {
+      "name": "Sleeveless Dress",
+      "category": "Women > Dress",
+      "price": 1000,
+      "availability": "In Stock",
+      "condition": "New",
+      "brand": "Madame"
+    }
   }
 }

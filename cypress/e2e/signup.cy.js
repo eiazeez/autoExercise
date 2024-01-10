@@ -10,7 +10,7 @@ describe('Dado que estou na página de cadastro', function(){
 
     context('Quando preencho com dados válidos', function(){
 
-        it('Então deve ser possível cadastrar com sucesso', function(){
+        it.only('Então deve ser possível cadastrar com sucesso', function(){
 
             const data = this.data.registerUser
 

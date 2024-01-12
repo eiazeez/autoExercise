@@ -1,5 +1,5 @@
 exports.el = {
     addedMessage: '.modal-body p',
-    blueButton: 'a[href^="/"] u',
+    blueButton: '.modal-body a[href^="/"] u',
     closeButton: 'button[data-dismiss="modal"]'
 }

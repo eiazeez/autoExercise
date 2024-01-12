@@ -60,7 +60,13 @@
     "zipcode": "12345678",
     "state": "Cana",
     "city": "Montreal",
-    "number": "987654321"
+    "number": "987654321",
+    "card": {
+        "number": "1234 5678 1234 5678",
+        "cvc": "321",
+        "month": "01",
+        "year": "2034"
+    }
   },
   "contactUs": {
     "name": "Meu Nome",

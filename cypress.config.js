@@ -4,6 +4,7 @@ const fs = require('fs')
 
 module.exports = defineConfig({
   e2e: {
+    video: true,
     viewportWidth: 1600,
     viewportHeight: 900,
     projectId: "bpz1cd",

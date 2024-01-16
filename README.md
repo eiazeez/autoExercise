@@ -94,7 +94,7 @@ Esse projeto utiliza NPM como Package Manager
 
 Clone o repositório para sua máquina
 ```bash
-  git clone https://github.com/eiazeez/AETemplate.git
+  git clone https://github.com/eiazeez/autoExercise.git
 ```
 
 Vá para a pasta do repositório

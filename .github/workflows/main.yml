@@ -14,7 +14,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          start: npx cypress run --browser chrome --record --key ${{ secrets.CYPRESS_RECORD_KEY }}
+          start: node runner.js
           wait-on: 'npx wait-on --timeout 240000 http://localhost:3000'
           record: true
           parallel: true

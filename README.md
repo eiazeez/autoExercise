@@ -159,15 +159,3 @@ it('Então deve ser possível se cadastrar com sucesso', function(){
 * [x] Login
 * [x] Products
 * [x] Signup
-
-
-<!-- Contact -->
-## :handshake: Contato
-O Automation Exercise - Cypress Project foi um projeto elaborado em um treinamento mentorado por:
-
-👨‍🏫 - Isaac Douglas
-> 🌐 Seu Linkedin é [linkedin.com/in/isaacdouglas](https://www.linkedin.com/in/isaacdouglas/)
-
-> 💻 Seu github é [github.com/eiazeez](https://github.com/eiazeez)
-
-Link para o Projeto Original: [https://github.com/eiazeez/autoExercise](https://github.com/eiazeez/autoExercise)
